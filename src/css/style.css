@@ -27,13 +27,16 @@ body {
     0%{
         visibility: visible;
     }
-    50% {
-        transform: translateX(500px);
+    40% {
+        transform: translateX(550px);
         text-shadow: 0px 20px 3px rgba(173,255,47,0.94);
         color: transparent;
     }
-    100% {
+    80% {
         transform: translateY(300px);
+    }
+    100% {
+        transform: translate(-400px);
     }
     
 }
